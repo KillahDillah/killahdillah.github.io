@@ -217,6 +217,7 @@ hr.small {
 
 .img-portfolio {
     margin: 0 auto;
+    height: 300px;
 }
 
 .img-portfolio:hover {
@@ -269,4 +270,8 @@ footer {
 
 .leah {
     border-radius: 30%;
+}
+
+#contacts{
+    height: -webkit-fill-available;
 }
