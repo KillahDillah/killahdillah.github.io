@@ -275,3 +275,7 @@ footer {
 #contacts{
     height: -webkit-fill-available;
 }
+
+#width{
+    width: 498px;
+}
