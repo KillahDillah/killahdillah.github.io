@@ -171,6 +171,13 @@ hr.small {
     background-size: cover;
 }
 
+#title{
+    color: white;
+}
+
+#name{
+    color: cadetblue;
+}
 
 /* About */
 
@@ -277,5 +284,5 @@ footer {
 }
 
 #width{
-    width: 498px;
+    width: 1000px;
 }

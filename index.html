@@ -53,8 +53,8 @@
     <!-- Header -->
     <header class="header" id="top">
       <div class="text-vertical-center">
-        <h1>Leah Miller</h1>
-        <h3>Jr. Web Develoepr</h3>
+        <h1 id="name">Leah Miller</h1>
+        <h3 id="title">Jr. Full Stack Developer</h3>
         <br>
         <a href="#about" class="btn btn-dark btn-lg js-scroll-trigger">Find Out More</a>
       </div>
@@ -62,11 +62,18 @@
 
     <!-- About -->
     <section id="about" class="about">
-      <div class="container text-center" id="width">
+      <div class="container text-center">
         <h2>About Me</h2>
         <p class="lead">Las Vegas Native</p>
-        <img class="leah" src="img/lyndon.jpg" height='350px'>
-        <p> Passionate full-stack developer eager to continue skills and knowledge growth. I am searching for a challenging position and a company I can grow with. I also like photography and exploring places unknown. Hire me for a Jr. Web Developer position!</p>
+        <p> I have lived in Las Vegas for the majority of my life; I remember when Wet'N'Wild was on the strip, when MGM had a theme park, and when Treasure Island had a free (family friendly) pirate show. I was born on the cusp of the 90's, so I was lucky enough to live through the original Teenage Mutant Ninja Turtles, Rocko's Modern Life, Doug, Kablam, and Legends of the Hidden Temple. My favorite artists include The Beatles, Led Zeppelin, Elton John, Billy Joel, Queen, Hall & Oates, Weezer, the list goes on... </p>
+        <div id="pictures">
+          <img class="leah" src="img/lyndon.jpg" height='350px'>
+          <img class="leah" src="green.png" height="350px">
+          <img class="leah" src="New/img/me.jpg" height='350px'>
+        </div>
+        <div id="width">
+        <p> Recently graduating from The Iron Yard, I am pleased to have made a career change into something so exciting and ever-changing like coding. I am eager to continue growing, learn new languages, and develop rich web experiences. Currently, I am looking for a challenging position with a company I can grow with. I also enjoy photography and exploring places unknown. Let's chat over some coffee!</p>
+      </div>
       </div>
       <!-- /.container -->
     </section>
@@ -91,7 +98,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
-                    <img src="http://www.iconninja.com/files/541/586/346/command-language-software-develop-code-programming-javascript-icon.png"/>
+                    <img src="http://en.webdreamlab.com/assets/images/technologies/JavaScript-logo.png" height="128px" />
                   </span>
                   <h4>
                     <strong>Javascript</strong>
@@ -121,8 +128,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                    <img src="https://camo.githubusercontent.com/647e291a5fd52d50e01deb82f9392c462df148a6/687474703a2f2f617070732e6f63746f636f6e73756c74696e672e636f6d2f696d616765732f6578707265737349636f6e2e706e67" height="100px" />
                   </span>
                   <h4>
                     <strong>Express.js</strong>
@@ -132,7 +138,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
-                    <img src="https://maxcdn.icons8.com/Android_L/PNG/512/Logos/html_5-512.png" height="128px" />
+                    <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" height="100px" />
                   </span>
                   <h4>
                     <strong>HTML</strong>
@@ -142,7 +148,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
-                    <img src="http://www.myiconfinder.com/uploads/iconsets/8b61de4c84033266e15317a6eb9fda2d-css3.png" height="128px" />
+                    <img src="https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png" height="100px" />
                   </span>
                   <h4>
                     <strong>CSS</strong>
@@ -156,6 +162,45 @@
                   </span>
                   <h4>
                     <strong>Semantic UI</strong>
+                  </h4>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" height="110px"/>
+                  <h4>
+                    <strong>Git</strong>
+                  </h4>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <img src="https://maxcdn.icons8.com/iOS7/PNG/512/Logos/heroku-512.png" height="110px" />
+                  </span>
+                  <h4>
+                    <strong>Heroku</strong>
+                  </h4>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" height="100px" />
+                  </span>
+                  <h4>
+                    <strong>Redux</strong>
+                  </h4>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <img src="https://cdn.worldvectorlogo.com/logos/material-ui.svg" height="100px" />
+                  </span>
+                  <h4>
+                    <strong>Material UI</strong>
                   </h4>
                 </div>
               </div>
@@ -182,6 +227,7 @@
                   <a href="https://github.com/cutlerjd/tiy_call_to_action">
                     <img class="img-portfolio img-fluid" src="img/final.png">
                   </a>
+                  <p>The Iron Yard Final Project. A Texting Campaign Platform.</p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -218,6 +264,7 @@
 
     <!-- Footer -->
     <footer>
+      <section id="contact" class="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
