@@ -291,3 +291,17 @@ footer {
 #width{
     width: 1000px;
 }
+
+.contain-one {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.bio {
+    margin: auto;
+    padding: 0px 97px;
+}
+
+p {
+    margin-bottom: 0px;
+}
