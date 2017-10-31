@@ -19,8 +19,8 @@ body {
 
 .text-vertical-center {
     position: absolute;
-    top: 50%;
-    bottom: 50%;
+    top: 40%;
+    right: 40%;
     text-align: center;
     vertical-align: middle;
 }
@@ -301,7 +301,6 @@ footer {
 
 .contain-one {
     display: flex;
-    margin-bottom: 40px;
 }
 
 .bio {
@@ -317,7 +316,7 @@ p {
     position: relative;
     clear: both;
     margin: 0 auto;
-    padding: 1em 0 4em;
+    
     max-width: 1000px;
     list-style: none;
     text-align: center;
@@ -334,7 +333,7 @@ p {
     width: 48%;
     height: auto;
     text-align: center;
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 
 .grid figure img {
@@ -413,4 +412,9 @@ figure:hover p {
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+}
+
+.col-md-3 {
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
