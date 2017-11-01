@@ -164,6 +164,7 @@ hr.small {
 
 .header/*, .header img*/{
     position: relative;
+    background-image: url("img/IMG_3241.jpg");
     width: 100%;
     height: 100%;
     text-align: center;
