@@ -19,7 +19,7 @@ body {
 }
 
 .text-vertical-center {
-    position: fixed;
+    position: absolute;
     width: 100%;
     margin-top: 100px
 }
@@ -414,4 +414,10 @@ figure:hover p {
 .col-md-3 {
     padding-bottom: 15px;
     padding-top: 15px;
+}
+
+@media screen and (max-width: 599px) {
+    body {
+
+    }
 }
