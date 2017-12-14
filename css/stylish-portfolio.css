@@ -301,8 +301,8 @@ footer {
     width: 1000px;
 }
 
-#interest p{
-    max-width: 50%;
+#interest {
+    max-width: 38%;
     margin: auto;
 }
 
