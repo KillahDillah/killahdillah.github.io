@@ -513,7 +513,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  /*height: auto;*/
 }
 
 .img-thumbnail {
@@ -638,12 +638,13 @@ pre code {
 }
 
 .row {
-  display: -ms-flexbox;
+  /*display: -ms-flexbox;*/
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  /*-ms-flex-wrap: wrap;*/
+  flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  justify-content: center;
 }
 
 .no-gutters {

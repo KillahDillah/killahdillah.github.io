@@ -233,6 +233,7 @@ hr.small {
 .img-portfolio {
     margin: 0 auto;
     height: 300px;
+    border-radius: 0.5em;
 }
 
 .img-portfolio:hover {
@@ -292,8 +293,17 @@ footer {
     display: block;
 }
 
+#blocker {
+    height: auto;
+}
+
 #width{
     width: 1000px;
+}
+
+#interest p{
+    max-width: 50%;
+    margin: auto;
 }
 
 .contain-one {
