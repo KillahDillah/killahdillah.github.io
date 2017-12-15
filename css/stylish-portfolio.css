@@ -442,4 +442,12 @@ figure:hover p {
     p {
         text-align: justify;
     }
+    .contain-one:nth-child(2) {
+        display: none;
+    }
+    #interest {
+        font-size: smaller;
+        max-width: 80%;
+        text-align: -webkit-center;
+    }
 }
