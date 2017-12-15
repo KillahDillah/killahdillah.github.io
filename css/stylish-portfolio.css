@@ -9,7 +9,7 @@
 
 html,
 body {
-    width: 100%;
+    width: -webkit-fill-available;
     height: 100%;
 }
 
