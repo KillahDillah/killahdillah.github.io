@@ -81,7 +81,7 @@ hr.small {
     z-index: 1000;
     right: 0;
     overflow-y: auto;
-    width: 250px;
+    /*width: 250px;*/
     height: 100%;
     -webkit-transition: all .4s ease 0s;
     -moz-transition: all .4s ease 0s;
@@ -95,7 +95,7 @@ hr.small {
 .sidebar-nav {
     position: absolute;
     top: 0;
-    width: 250px;
+    /*width: 250px;*/
     margin: 0;
     padding: 0;
     list-style: none;
