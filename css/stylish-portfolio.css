@@ -431,8 +431,15 @@ figure:hover p {
 }
 
 @media screen and (max-width: 599px) {
-    body {
-        width: 100%;
+    .contain-one {
+        display: block;
 
+    }
+
+    .bio {
+        padding: 10px;
+    }
+    p {
+        text-align: justify;
     }
 }
