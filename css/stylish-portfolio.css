@@ -433,14 +433,15 @@ figure:hover p {
 @media screen and (max-width: 599px) {
     .contain-one {
         display: block;
-
     }
-
     .bio {
         padding: 10px;
     }
     p {
         text-align: justify;
+    }
+    .lead {
+        text-align: center;
     }
     .contain-one:nth-child(2) {
         display: none;
@@ -449,5 +450,16 @@ figure:hover p {
         font-size: smaller;
         max-width: 80%;
         text-align: -webkit-center;
+    }
+    .text-vertical-center h1 {
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        height: 60%;
+    }
+    .text-vertical-center h1 {
+        font-size: 2.5em;
     }
 }
