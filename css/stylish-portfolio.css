@@ -503,4 +503,7 @@ figure:hover p {
         height: auto;
         text-align: center;
     }
+    .text-muted {
+        text-align: center;
+    }
 }
