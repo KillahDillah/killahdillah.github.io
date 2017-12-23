@@ -368,11 +368,14 @@ footer {
 
 .contain-one {
     display: flex;
+    width: 75%;
+    margin: auto;
 }
 
 .bio {
     margin: auto;
     padding: 0px 97px;
+    width: 50%;
 }
 
 p {
