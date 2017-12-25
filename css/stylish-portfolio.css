@@ -374,8 +374,8 @@ footer {
 
 .bio {
     margin: auto;
-    /*padding: 0px 97px;*/
-    width: 50%;
+    padding: 0px 37px;
+    /*width: 50%;*/
 }
 
 #principles {
@@ -561,8 +561,8 @@ figure:hover p {
         margin: 10px 1%;
         min-width: 0;
         max-width: inherit;
-        max-height: inherit;
-        width: auto;
+/*        max-height: inherit;
+*/        width: auto;
         height: auto;
         text-align: center;
     }
