@@ -374,8 +374,13 @@ footer {
 
 .bio {
     margin: auto;
-    padding: 0px 97px;
+    /*padding: 0px 97px;*/
     width: 50%;
+}
+
+#principles {
+    list-style-type: none;
+    padding-left: 0px;
 }
 
 p {
